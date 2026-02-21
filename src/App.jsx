@@ -16,9 +16,9 @@ function App() {
     <>
       <div class="header">
         <nav>
-            <img src="src/images/logo.png" class="logo" />
+            <img src={logo} className="logo" />
             <div>
-                <button class="language-btn">English <img src="src/images/downar.png" /></button>
+                <button class="language-btn">English <img src={downar} /> </button>
                 <button>Sign In</button>
             </div>
         </nav>
@@ -40,14 +40,14 @@ function App() {
                 <p>Watch on smart TVs, PlayStation, Xbox, Chromecast, Apple TV, Blu-ray players and more.</p>
             </div>
             <div class="img-col">
-                <img src="src/images/bird-box.png" />
+                <img src={bird} />
             </div>
         </div>
     
 
         <div class="row">
              <div class="img-col">
-                <img src="src/images/img3.png" />
+               <img src={img3} />
             </div>
             <div class="text-col">
                 <h2>Download your shows to watch offline.</h2>
@@ -61,13 +61,13 @@ function App() {
                 <p>Stream unlimited movies and TV shows on your phone, tablet, laptop, and TV.</p>
             </div>
             <div class="img-co<l">
-                <img src="src/images/strth.png" />
+                <img src={strth} />
             </div>
         </div>
 
         <div class="row">
             <div class="img-col">
-                <img src="src/images/img4.png" />
+               <img src={img4} />
             </div>
             <div class="text-col">
                 <h2>Create profiles for children.</h2>
@@ -165,7 +165,7 @@ function App() {
                 <a href="#">Contact Us</a>
             </div>
         </div>
-        <button class="language-btn">English <img src="src/images/downar.png" /></button>
+        <button class="language-btn">English <img src={downar} /></button>
         <p class="copyright-text">Netflix Pakistan</p>
     </div>
     </>
